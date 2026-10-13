@@ -4,7 +4,7 @@
 
 ## What this repo is
 
-"A Terra-média de Tolkien": a static, multilingual guide to Tolkien's Middle-earth (old-style SVG map, Ages timeline, profile explorer, bookshelf), published on GitHub Pages at `https://grandarchives.github.io/middle-earth/`. Plain HTML/CSS/JS: no framework, no build step, no dependencies. Part of the GrandArchives org (sibling sites: stephen-king, harry-potter).
+"A Terra-média de Tolkien": a static, multilingual guide to Tolkien's Middle-earth (old-style SVG map, Ages timeline, profile explorer, bookshelf), published on GitHub Pages at `https://grand-archives.github.io/middle-earth/`. Plain HTML/CSS/JS: no framework, no build step, no dependencies. Part of the GrandArchives org (sibling sites: stephen-king, harry-potter).
 
 ## Folder structure
 
@@ -51,17 +51,17 @@ Head template for `site/<code>/index.html` (example: English; for the pt-BR root
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>TITLE | GrandArchives</title>
 <meta name="description" content="DESCRIPTION">
-<link rel="canonical" href="https://grandarchives.github.io/middle-earth/en/">
+<link rel="canonical" href="https://grand-archives.github.io/middle-earth/en/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="GrandArchives">
 <meta property="og:locale" content="en_US">
 <meta property="og:locale:alternate" content="pt_BR">
 <meta property="og:title" content="TITLE | GrandArchives">
 <meta property="og:description" content="DESCRIPTION">
-<meta property="og:url" content="https://grandarchives.github.io/middle-earth/en/">
-<link rel="alternate" hreflang="pt-BR" href="https://grandarchives.github.io/middle-earth/">
-<link rel="alternate" hreflang="en" href="https://grandarchives.github.io/middle-earth/en/">
-<link rel="alternate" hreflang="x-default" href="https://grandarchives.github.io/middle-earth/">
+<meta property="og:url" content="https://grand-archives.github.io/middle-earth/en/">
+<link rel="alternate" hreflang="pt-BR" href="https://grand-archives.github.io/middle-earth/">
+<link rel="alternate" hreflang="en" href="https://grand-archives.github.io/middle-earth/en/">
+<link rel="alternate" hreflang="x-default" href="https://grand-archives.github.io/middle-earth/">
 <link rel="icon" href="../assets/icons/favicon.ico" sizes="any">
 <link rel="icon" href="../assets/icons/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png">
