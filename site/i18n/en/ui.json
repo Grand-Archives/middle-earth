@@ -1,0 +1,91 @@
+{
+  "lang.label": "Language",
+
+  "nav.label": "Sections",
+  "nav.map": "Map",
+  "nav.eras": "Ages",
+  "nav.explore": "Peoples, languages and characters",
+  "nav.books": "Books",
+  "nav.credits": "Sources",
+
+  "hero.eyebrow": "A guide to the legendarium",
+  "hero.title": "Tolkien's Middle-earth",
+  "hero.lede": "From the Music that made the world to the departure of the Ring-bearers. The map shows where everything happens, the ruler of the Ages shows when, and the profiles explain the peoples, the languages and the people. Tap any underlined name to open its profile.",
+
+  "meta.summary": "{places} · {moments} · {peoples} · {languages} · {characters}",
+  "meta.places.one": "{n} place",
+  "meta.places.other": "{n} places",
+  "meta.moments.one": "{n} moment across five Ages",
+  "meta.moments.other": "{n} moments across five Ages",
+  "meta.peoples.one": "{n} people",
+  "meta.peoples.other": "{n} peoples",
+  "meta.languages.one": "{n} language and script",
+  "meta.languages.other": "{n} languages and scripts",
+  "meta.characters.one": "{n} character",
+  "meta.characters.other": "{n} characters",
+
+  "map.title": "The map",
+  "map.intro": "The west of Middle-earth at the end of the Third Age, drawn in the manner of old maps. Tap a point to read about the place. The lands that no longer exist at that time are listed below the map.",
+  "map.sectionLabel": "Map of Middle-earth",
+  "map.svgLabel": "Map of western Middle-earth",
+  "map.lost": "Lands of ancient ages, off this map",
+  "map.cartTitle": "MIDDLE-EARTH",
+  "map.cartSubtitle": "the West, at the end of the Third Age",
+  "map.north": "N",
+
+  "cat.homens": "Men",
+  "cat.elfos": "Elves",
+  "cat.anaos": "Dwarves",
+  "cat.hobbits": "Hobbits",
+  "cat.sombra": "Shadow",
+  "cat.outros": "Others",
+
+  "eras.title": "The Ages",
+  "eras.intro": "The width of each band follows the length of the Age in Sun years. The First Age, the most often told, is the shortest of the three.",
+  "eras.rulerLabel": "Ages",
+
+  "explore.title": "Peoples, languages and characters",
+  "explore.intro": "Each profile carries its links to other profiles and the moments of the timeline in which it appears. The profiles reveal how the stories end.",
+  "explore.pickLabel": "Choose a profile",
+  "explore.searchPlaceholder": "Search",
+  "explore.searchLabel": "Search profiles",
+  "explore.empty": "Nothing found in this tab.",
+
+  "tab.povo": "Peoples",
+  "tab.lingua": "Languages",
+  "tab.figura": "Characters",
+  "tab.lugar": "Places",
+
+  "type.povo": "People",
+  "type.lingua": "Language or script",
+  "type.figura": "Character",
+  "type.lugar": "Place",
+
+  "entry.kicker": "{type} · {group}",
+  "entry.branches": "Branches and names",
+  "entry.words": "A few words",
+  "entry.links": "Connections",
+  "entry.timeline": "On the timeline",
+  "entry.eventRef": "{era}, {year}",
+
+  "books.title": "The books",
+  "books.intro": "Where each part of the story is told. Titles and dates of the original editions.",
+  "books.startTitle": "Where to start",
+  "books.startP1": "Publication order works best: The Hobbit, The Lord of the Rings with the Appendices, and only then The Silmarillion. It is denser and gains a great deal once the reader already knows the Third Age.",
+  "books.startP2": "After The Silmarillion, the three great tales of the First Age (The Children of Húrin, Beren and Lúthien, The Fall of Gondolin) deepen what it summarizes, and Unfinished Tales and The Fall of Númenor cover the Second Age.",
+
+  "reader.label": "Profile",
+  "reader.close": "Close",
+
+  "credits.label": "Sources and credits",
+  "credits.sourcesTitle": "Sources",
+  "credits.sourcesText": "The foundation is the books of J.R.R. Tolkien, above all the Appendices of The Lord of the Rings and The Silmarillion. Dates and names were checked against Tolkien Gateway and Wikipedia.",
+  "credits.namesTitle": "Names and terms",
+  "credits.namesText": "Names follow Tolkien's original English editions (Dwarves, Orcs, Mirkwood). Readers of the Brazilian HarperCollins translation may know other forms, such as Anãos, Orques and Trevamata.",
+  "credits.mapTitle": "About the map and the dates",
+  "credits.mapText": "The map is an original drawing, in the manner of old maps, without an exact scale. Dates before the Sun come from the annals that Tolkien left in draft and vary between versions.",
+  "credits.consulted": "See the pages consulted",
+
+  "footer.copyright": "<strong>© 2026 GrandArchives.</strong> Texts, map, organization and design of this guide.",
+  "footer.notice": "This is a fan project: unofficial, free and non-profit. It has no connection with the Tolkien Estate, Middle-earth Enterprises or the publishers, and is not endorsed by them. The works, names, characters and places mentioned belong to J.R.R. Tolkien and their respective rights holders. No excerpts from the works are reproduced: the texts are summaries and commentary for reference purposes."
+}

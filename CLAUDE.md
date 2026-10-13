@@ -13,7 +13,7 @@
 site/                           everything that is deployed
   index.html                    pt-BR page (site root, keeps the published URL)
   sitemap.xml                   one <url> per language, with xhtml hreflang alternates
-  <code>/index.html             pages of other languages (e.g. site/en/index.html)
+  en/index.html                 English page (/en/); further languages follow the same <code>/index.html pattern
   assets/icons/                 favicon.ico, favicon.svg, apple-touch-icon.png (shared by all languages)
   assets/img/                   language-independent images (none yet)
   css/style.css                 all styles
@@ -25,12 +25,18 @@ site/                           everything that is deployed
 
 How a page works: `<html lang="<code>">` is also the folder name under `site/i18n/`. `app.js` calls `I18N.load()`, injects the page skeleton into `<div id="app">`, applies `data-i18n` / `data-i18n-attr`, fills the language selector and runs the logic with the data from `data.js`. Strings built in JS use `I18N.t` / `I18N.tn` (plural keys `.one` / `.other`) with `{placeholders}`. Locale-sensitive code uses `I18N.LANG`. Non-text presentation config (map geometry, pin coordinates, colour/type ids) lives in `app.js`; everything a translator must provide lives in `ui.json` and `data.js` (the header of `pt-BR/data.js` documents its structure).
 
-pt-BR is the primary language and stays at the root URL. There is no automatic redirect by browser language and no language memory.
+Languages present: pt-BR (primary, stays at the root URL) and en (English, `site/en/`); the language selector lists both. There is no automatic redirect by browser language and no language memory.
+
+Translation notes:
+- English uses Tolkien's original English names and terms (The Shire, Dwarves, Orcs, Mirkwood, the Silmarils...), not renderings of the Portuguese ones. Where pt-BR shows a Brazilian-edition form next to the original, the English text just shows the original.
+- Profile ids, `type` codes (`povo|lingua|figura|lugar`), `color` ids (`homens|elfos|anaos|hobbits|sombra|outros`), era ids and the ids inside `[[id|label]]` links are language-independent and stay as in pt-BR in every `data.js`; only labels and texts are translated.
+- `credits.namesTitle` / `credits.namesText` describe the naming convention of each edition, so they are adapted per language, not translated word for word (pt-BR: names follow the current Brazilian HarperCollins translation; en: names follow Tolkien's original English editions and mention that Brazilian readers may know other forms).
+- The Portuguese Wikipedia entry stays in `sources` in every language (its label says so); the URLs are identical across languages.
 
 ## How to add a language
 
 1. Create `site/i18n/<code>/ui.json` (copy `pt-BR/ui.json`, translate every value, keep every key, including `lang.label`) and `site/i18n/<code>/data.js` (copy `pt-BR/data.js`, translate the text values; keep keys, ids, numbers, colour ids and URLs).
-2. Add the language to `site/i18n/languages.json`, e.g. `{ "code": "en", "name": "English", "path": "en/" }`. The selector is always rendered (a single-entry list today).
+2. Add the language to `site/i18n/languages.json`, e.g. `{ "code": "en", "name": "English", "path": "en/" }`. The selector is always rendered from this list (pt-BR and en today).
 3. Create `site/<code>/index.html` from the head template below, with the correct `lang`, title, description, Open Graph tags, canonical URL and `../` relative paths.
 4. Add the new language's `hreflang` alternate to the `<head>` of EVERY existing page (including `site/index.html`) and to every `<url>` in `site/sitemap.xml` (and add a `<url>` for the new page). Add the language to `og:locale:alternate` on every page.
 5. `app.js` must not need any edit. Test through a static server (never `file://`): no console errors, favicons 200, selector switches keeping hash/query.
