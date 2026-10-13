@@ -1,0 +1,91 @@
+{
+  "lang.label": "Idioma",
+
+  "nav.label": "Seções",
+  "nav.map": "Mapa",
+  "nav.eras": "Eras",
+  "nav.explore": "Povos, línguas e personagens",
+  "nav.books": "Livros",
+  "nav.credits": "Fontes",
+
+  "hero.eyebrow": "Guia do legendário",
+  "hero.title": "A Terra-média de Tolkien",
+  "hero.lede": "Da Música que criou o mundo à partida dos Portadores do Anel. O mapa mostra onde tudo acontece, a régua das Eras mostra quando, e os perfis explicam os povos, as línguas e as pessoas. Toque em qualquer nome sublinhado para abrir o perfil dele.",
+
+  "meta.summary": "{places} · {moments} · {peoples} · {languages} · {characters}",
+  "meta.places.one": "{n} lugar",
+  "meta.places.other": "{n} lugares",
+  "meta.moments.one": "{n} momento em cinco Eras",
+  "meta.moments.other": "{n} momentos em cinco Eras",
+  "meta.peoples.one": "{n} povo",
+  "meta.peoples.other": "{n} povos",
+  "meta.languages.one": "{n} língua e escrita",
+  "meta.languages.other": "{n} línguas e escritas",
+  "meta.characters.one": "{n} personagem",
+  "meta.characters.other": "{n} personagens",
+
+  "map.title": "O mapa",
+  "map.intro": "O oeste da Terra-média no fim da Terceira Era, desenhado à moda dos mapas antigos. Toque num ponto para ler sobre o lugar. As terras que já não existem nessa época ficam na lista abaixo do mapa.",
+  "map.sectionLabel": "Mapa da Terra-média",
+  "map.svgLabel": "Mapa do oeste da Terra-média",
+  "map.lost": "Terras de eras antigas, fora deste mapa",
+  "map.cartTitle": "A TERRA-MÉDIA",
+  "map.cartSubtitle": "o Oeste, ao fim da Terceira Era",
+  "map.north": "N",
+
+  "cat.homens": "Homens",
+  "cat.elfos": "Elfos",
+  "cat.anaos": "Anãos",
+  "cat.hobbits": "Hobbits",
+  "cat.sombra": "Sombra",
+  "cat.outros": "Outros",
+
+  "eras.title": "As Eras",
+  "eras.intro": "A largura de cada faixa segue a duração da Era em anos do Sol. A Primeira Era, a mais contada, é a mais curta das três.",
+  "eras.rulerLabel": "Eras",
+
+  "explore.title": "Povos, línguas e personagens",
+  "explore.intro": "Cada perfil traz as ligações com outros perfis e os momentos da linha do tempo em que aparece. Os perfis contam o fim das histórias.",
+  "explore.pickLabel": "Escolher perfil",
+  "explore.searchPlaceholder": "Buscar",
+  "explore.searchLabel": "Buscar perfil",
+  "explore.empty": "Nada encontrado nesta aba.",
+
+  "tab.povo": "Povos",
+  "tab.lingua": "Línguas",
+  "tab.figura": "Personagens",
+  "tab.lugar": "Lugares",
+
+  "type.povo": "Povo",
+  "type.lingua": "Língua ou escrita",
+  "type.figura": "Personagem",
+  "type.lugar": "Lugar",
+
+  "entry.kicker": "{type} · {group}",
+  "entry.branches": "Ramos e nomes",
+  "entry.words": "Algumas palavras",
+  "entry.links": "Ligações",
+  "entry.timeline": "Na linha do tempo",
+  "entry.eventRef": "{era}, {year}",
+
+  "books.title": "Os livros",
+  "books.intro": "Onde cada parte da história está contada. Títulos e datas das edições originais.",
+  "books.startTitle": "Por onde começar",
+  "books.startP1": "A ordem de publicação funciona melhor: O Hobbit, O Senhor dos Anéis com os Apêndices, e só então O Silmarillion. Ele é mais denso e ganha muito quando o leitor já conhece a Terceira Era.",
+  "books.startP2": "Depois de O Silmarillion, os três grandes contos da Primeira Era (Os Filhos de Húrin, Beren e Lúthien, A Queda de Gondolin) aprofundam o que ele resume, e Contos Inacabados e A Queda de Númenor cobrem a Segunda Era.",
+
+  "reader.label": "Perfil",
+  "reader.close": "Fechar",
+
+  "credits.label": "Fontes e créditos",
+  "credits.sourcesTitle": "Fontes",
+  "credits.sourcesText": "A base são os livros de J.R.R. Tolkien, sobretudo os Apêndices de O Senhor dos Anéis e O Silmarillion. Datas e nomes foram conferidos no Tolkien Gateway e na Wikipedia.",
+  "credits.namesTitle": "Nomes em português",
+  "credits.namesText": "Os nomes seguem a tradução atual da HarperCollins Brasil (Anãos, Orques, Trevamata). Quando a forma das edições antigas é mais conhecida, ela aparece entre parênteses.",
+  "credits.mapTitle": "Sobre o mapa e as datas",
+  "credits.mapText": "O mapa é um desenho próprio, à moda dos mapas antigos, sem escala exata. As datas anteriores ao Sol vêm dos anais que Tolkien deixou em rascunho e variam entre as versões.",
+  "credits.consulted": "Ver as páginas consultadas",
+
+  "footer.copyright": "<strong>© 2026 GrandArchives.</strong> Textos, mapa, organização e design deste guia.",
+  "footer.notice": "Este é um projeto de fã, não oficial, gratuito e sem fins lucrativos. Não tem ligação com o Tolkien Estate, com a Middle-earth Enterprises nem com as editoras, e não é endossado por eles. As obras, os nomes, os personagens e os lugares citados pertencem a J.R.R. Tolkien e aos respectivos detentores dos direitos. Nenhum trecho das obras é reproduzido: os textos são resumos e comentários para fins de referência."
+}
