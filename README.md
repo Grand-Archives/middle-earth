@@ -102,6 +102,8 @@ The map is an original drawing in the style of old maps and is not to scale. Dat
 
 This is an unofficial, free, non-profit fan project. It is not affiliated with or endorsed by the Tolkien Estate, Middle-earth Enterprises or any publisher. The works, names, characters and places mentioned belong to J.R.R. Tolkien and their respective rights holders. No excerpts of the works are reproduced; the texts are summaries and commentary for reference purposes.
 
-## Copyright
+## License
 
-Copyright © 2026 GrandArchives. Texts, map, organization and design of this guide.
+Released under the [MIT License](LICENSE). Copyright © 2026 GrandArchives.
+
+The license covers the code and the original texts, map, organization and design of this project. The works, names, characters, places and trademarks it mentions belong to their respective authors and rights holders and are not covered by it; see the [disclaimer](#disclaimer).
